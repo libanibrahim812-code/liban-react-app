@@ -1,10 +1,8 @@
-import React from 'react'
-
 const Header = () => {
   return (
-    <div>
-      <h1>This my first react</h1>
-    </div>
+    <>
+      <h1>This my first react tutorial</h1>
+    </>
   );
 }
 

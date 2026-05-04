@@ -1,10 +1,12 @@
-import React from 'react'
-
 function Greeting(props) {
   return (
-  <h1>Hello, {props.name} {props.lastname}!</h1>
+    <>
+      <h1>
+        Hello, {props.name} {props.lastname}!
+      </h1>
+      <h2>This text was not there</h2>
+    </>
   );
 }
 
-
-export default Greeting
+export default Greeting;
